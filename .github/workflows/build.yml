@@ -40,6 +40,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: 4 - validate build
-        run: |
-          cd target
-          ls -a
+        run: ls -a
